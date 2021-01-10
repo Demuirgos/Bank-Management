@@ -128,384 +128,264 @@ namespace Project7 {
 	private: System::Windows::Forms::Label^  addlabel6;
 	private: System::Windows::Forms::Button^  Create;
 	private: System::Windows::Forms::DateTimePicker^  dateTimePicker1;
-private: System::Windows::Forms::GroupBox^  Delacc;
-private: System::Windows::Forms::TableLayoutPanel^  tableLayoutPanel1;
-private: System::Windows::Forms::FlowLayoutPanel^  flowLayoutPanel1;
-private: System::Windows::Forms::Label^  label1;
-private: System::Windows::Forms::TextBox^  Dellacc1_1;
+	private: System::Windows::Forms::GroupBox^  Delacc;
+	private: System::Windows::Forms::TableLayoutPanel^  tableLayoutPanel1;
+	private: System::Windows::Forms::FlowLayoutPanel^  flowLayoutPanel1;
+	private: System::Windows::Forms::Label^  label1;
+	private: System::Windows::Forms::TextBox^  Dellacc1_1;
 
+	private: System::Windows::Forms::Label^  label2;
+	private: System::Windows::Forms::TextBox^  Dellacc1_2;
 
-private: System::Windows::Forms::Label^  label2;
-private: System::Windows::Forms::TextBox^  Dellacc1_2;
+	private: System::Windows::Forms::Label^  label3;
+	private: System::Windows::Forms::TextBox^  Dellacc1_3;
 
+	private: System::Windows::Forms::Label^  label4;
+	private: System::Windows::Forms::TextBox^  Dellacc1_4;
 
-private: System::Windows::Forms::Label^  label3;
-private: System::Windows::Forms::TextBox^  Dellacc1_3;
+	private: System::Windows::Forms::FlowLayoutPanel^  flowLayoutPanel8;
+	private: System::Windows::Forms::CheckBox^  check8;
 
+	private: System::Windows::Forms::Label^  label29;
+	private: System::Windows::Forms::TextBox^  Dellacc8_1;
 
-private: System::Windows::Forms::Label^  label4;
-private: System::Windows::Forms::TextBox^  Dellacc1_4;
+	private: System::Windows::Forms::Label^  label30;
+	private: System::Windows::Forms::TextBox^  Dellacc8_2;
 
-private: System::Windows::Forms::FlowLayoutPanel^  flowLayoutPanel8;
-private: System::Windows::Forms::CheckBox^  check8;
+	private: System::Windows::Forms::Label^  label31;
+	private: System::Windows::Forms::TextBox^  Dellacc8_3;
 
-private: System::Windows::Forms::Label^  label29;
-private: System::Windows::Forms::TextBox^  Dellacc8_1;
+	private: System::Windows::Forms::Label^  label32;
+	private: System::Windows::Forms::TextBox^  Dellacc8_4;
 
-private: System::Windows::Forms::Label^  label30;
-private: System::Windows::Forms::TextBox^  Dellacc8_2;
+	private: System::Windows::Forms::FlowLayoutPanel^  flowLayoutPanel7;
+	private: System::Windows::Forms::CheckBox^  check7;
 
-private: System::Windows::Forms::Label^  label31;
-private: System::Windows::Forms::TextBox^  Dellacc8_3;
+	private: System::Windows::Forms::Label^  label25;
+	private: System::Windows::Forms::TextBox^  Dellacc7_1;
 
-private: System::Windows::Forms::Label^  label32;
-private: System::Windows::Forms::TextBox^  Dellacc8_4;
+	private: System::Windows::Forms::Label^  label26;
+	private: System::Windows::Forms::TextBox^  Dellacc7_2;
 
-private: System::Windows::Forms::FlowLayoutPanel^  flowLayoutPanel7;
-private: System::Windows::Forms::CheckBox^  check7;
+	private: System::Windows::Forms::Label^  label27;
+	private: System::Windows::Forms::TextBox^  Dellacc7_3;
 
-private: System::Windows::Forms::Label^  label25;
-private: System::Windows::Forms::TextBox^  Dellacc7_1;
+	private: System::Windows::Forms::Label^  label28;
+	private: System::Windows::Forms::TextBox^  Dellacc7_4;
 
-private: System::Windows::Forms::Label^  label26;
-private: System::Windows::Forms::TextBox^  Dellacc7_2;
+	private: System::Windows::Forms::FlowLayoutPanel^  flowLayoutPanel6;
+	private: System::Windows::Forms::CheckBox^  check6;
 
-private: System::Windows::Forms::Label^  label27;
-private: System::Windows::Forms::TextBox^  Dellacc7_3;
+	private: System::Windows::Forms::Label^  label21;
+	private: System::Windows::Forms::TextBox^  Dellacc6_1;
 
-private: System::Windows::Forms::Label^  label28;
-private: System::Windows::Forms::TextBox^  Dellacc7_4;
+	private: System::Windows::Forms::Label^  label22;
+	private: System::Windows::Forms::TextBox^  Dellacc6_2;
 
-private: System::Windows::Forms::FlowLayoutPanel^  flowLayoutPanel6;
-private: System::Windows::Forms::CheckBox^  check6;
+	private: System::Windows::Forms::Label^  label23;
+	private: System::Windows::Forms::TextBox^  Dellacc6_3;
 
-private: System::Windows::Forms::Label^  label21;
-private: System::Windows::Forms::TextBox^  Dellacc6_1;
+	private: System::Windows::Forms::Label^  label24;
+	private: System::Windows::Forms::TextBox^  Dellacc6_4;
 
-private: System::Windows::Forms::Label^  label22;
-private: System::Windows::Forms::TextBox^  Dellacc6_2;
+	private: System::Windows::Forms::FlowLayoutPanel^  flowLayoutPanel5;
+	private: System::Windows::Forms::CheckBox^  check5;
 
-private: System::Windows::Forms::Label^  label23;
-private: System::Windows::Forms::TextBox^  Dellacc6_3;
+	private: System::Windows::Forms::Label^  label17;
+	private: System::Windows::Forms::TextBox^  Dellacc5_1;
 
-private: System::Windows::Forms::Label^  label24;
-private: System::Windows::Forms::TextBox^  Dellacc6_4;
+	private: System::Windows::Forms::Label^  label18;
+	private: System::Windows::Forms::TextBox^  Dellacc5_2;
 
-private: System::Windows::Forms::FlowLayoutPanel^  flowLayoutPanel5;
-private: System::Windows::Forms::CheckBox^  check5;
+	private: System::Windows::Forms::Label^  label19;
+	private: System::Windows::Forms::TextBox^  Dellacc5_3;
 
-private: System::Windows::Forms::Label^  label17;
-private: System::Windows::Forms::TextBox^  Dellacc5_1;
+	private: System::Windows::Forms::Label^  label20;
+	private: System::Windows::Forms::TextBox^  Dellacc5_4;
 
-private: System::Windows::Forms::Label^  label18;
-private: System::Windows::Forms::TextBox^  Dellacc5_2;
+	private: System::Windows::Forms::FlowLayoutPanel^  flowLayoutPanel4;
+	private: System::Windows::Forms::CheckBox^  check4;
 
-private: System::Windows::Forms::Label^  label19;
-private: System::Windows::Forms::TextBox^  Dellacc5_3;
+	private: System::Windows::Forms::Label^  label13;
+	private: System::Windows::Forms::TextBox^  Dellacc4_1;
 
-private: System::Windows::Forms::Label^  label20;
-private: System::Windows::Forms::TextBox^  Dellacc5_4;
+	private: System::Windows::Forms::Label^  label14;
+	private: System::Windows::Forms::TextBox^  Dellacc4_2;
 
-private: System::Windows::Forms::FlowLayoutPanel^  flowLayoutPanel4;
-private: System::Windows::Forms::CheckBox^  check4;
+	private: System::Windows::Forms::Label^  label15;
+	private: System::Windows::Forms::TextBox^  Dellacc4_3;
 
-private: System::Windows::Forms::Label^  label13;
-private: System::Windows::Forms::TextBox^  Dellacc4_1;
+	private: System::Windows::Forms::Label^  label16;
+	private: System::Windows::Forms::TextBox^  Dellacc4_4;
 
-private: System::Windows::Forms::Label^  label14;
-private: System::Windows::Forms::TextBox^  Dellacc4_2;
+	private: System::Windows::Forms::FlowLayoutPanel^  flowLayoutPanel3;
+	private: System::Windows::Forms::CheckBox^  check3;
 
-private: System::Windows::Forms::Label^  label15;
-private: System::Windows::Forms::TextBox^  Dellacc4_3;
+	private: System::Windows::Forms::Label^  label9;
+	private: System::Windows::Forms::TextBox^  Dellacc3_1;
 
-private: System::Windows::Forms::Label^  label16;
-private: System::Windows::Forms::TextBox^  Dellacc4_4;
+	private: System::Windows::Forms::Label^  label10;
+	private: System::Windows::Forms::TextBox^  Dellacc3_2;
 
-private: System::Windows::Forms::FlowLayoutPanel^  flowLayoutPanel3;
-private: System::Windows::Forms::CheckBox^  check3;
-
-private: System::Windows::Forms::Label^  label9;
-private: System::Windows::Forms::TextBox^  Dellacc3_1;
-
-private: System::Windows::Forms::Label^  label10;
-private: System::Windows::Forms::TextBox^  Dellacc3_2;
-
-private: System::Windows::Forms::Label^  label11;
-private: System::Windows::Forms::TextBox^  Dellacc3_3;
-
-private: System::Windows::Forms::Label^  label12;
-private: System::Windows::Forms::TextBox^  Dellacc3_4;
-
-private: System::Windows::Forms::FlowLayoutPanel^  flowLayoutPanel2;
-private: System::Windows::Forms::CheckBox^  check2;
-
-private: System::Windows::Forms::Label^  label5;
-private: System::Windows::Forms::TextBox^  Dellacc2_1;
-
-
-private: System::Windows::Forms::Label^  label6;
-private: System::Windows::Forms::TextBox^  Dellacc2_2;
-
-private: System::Windows::Forms::Label^  label7;
-private: System::Windows::Forms::TextBox^  Dellacc2_3;
-
-private: System::Windows::Forms::Label^  label8;
-private: System::Windows::Forms::TextBox^  Dellacc2_4;
-private: System::Windows::Forms::CheckBox^  check1;
-
-
-private: System::Windows::Forms::Button^  DELETE;
-private: System::Windows::Forms::Button^  DelSearchBtn;
-private: System::Windows::Forms::TextBox^  Delsearch;
-private: System::Windows::Forms::RadioButton^  radioButton2;
-private: System::Windows::Forms::RadioButton^  radioButton1;
-private: System::Windows::Forms::TabPage^  page3;
-
-private: System::Windows::Forms::GroupBox^  ACCADD;
-
-private: System::Windows::Forms::Button^  CreateACC;
-private: System::Windows::Forms::TextBox^  accadd3;
-private: System::Windows::Forms::TextBox^  accadd2;
-private: System::Windows::Forms::TextBox^  accadd1;
-private: System::Windows::Forms::Label^  label35;
-private: System::Windows::Forms::Label^  label34;
-private: System::Windows::Forms::Label^  label33;
-private: System::Windows::Forms::GroupBox^  DelAC;
-private: System::Windows::Forms::Button^  button1;
-private: System::Windows::Forms::TextBox^  serchdata;
-
-
-private: System::Windows::Forms::TableLayoutPanel^  tableLayoutPanel2;
-private: System::Windows::Forms::FlowLayoutPanel^  addaccfl6;
-private: System::Windows::Forms::CheckBox^  dlcheckBox6;
-
-
-
-
-
-
-
-
-
-
-
-
-private: System::Windows::Forms::Label^  label40;
-private: System::Windows::Forms::TextBox^  delacc6_1;
-
-
-
-
-
-
-private: System::Windows::Forms::Label^  label43;
-private: System::Windows::Forms::TextBox^  delacc6_3;
-private: System::Windows::Forms::FlowLayoutPanel^  addaccfl5;
-private: System::Windows::Forms::CheckBox^  dlcheckBox5;
-
-
-
-
-private: System::Windows::Forms::Label^  label44;
-private: System::Windows::Forms::TextBox^  delacc5_1;
-
-
-
-
-
-
-private: System::Windows::Forms::Label^  label47;
-private: System::Windows::Forms::TextBox^  delacc5_3;
-private: System::Windows::Forms::FlowLayoutPanel^  addaccfl4;
-private: System::Windows::Forms::CheckBox^  dlcheckBox4;
-
-
-
-
-
-
-
-
-
-
-
-
-
-private: System::Windows::Forms::Label^  label52;
-private: System::Windows::Forms::TextBox^  delacc4_1;
-
-
-
-
-
-
-private: System::Windows::Forms::Label^  label55;
-private: System::Windows::Forms::TextBox^  delacc4_3;
-private: System::Windows::Forms::FlowLayoutPanel^  addaccfl3;
-private: System::Windows::Forms::CheckBox^  dlcheckBox3;
-
-
-
-private: System::Windows::Forms::Label^  label56;
-private: System::Windows::Forms::TextBox^  delacc3_1;
-
-
-
-
-
-
-private: System::Windows::Forms::Label^  label59;
-private: System::Windows::Forms::TextBox^  delacc3_3;
-private: System::Windows::Forms::FlowLayoutPanel^  addaccfl2;
-private: System::Windows::Forms::CheckBox^  dlcheckBox2;
-
-
-
-private: System::Windows::Forms::Label^  label60;
-private: System::Windows::Forms::TextBox^  delacc2_1;
-
-
-
-
-
-
-private: System::Windows::Forms::Label^  label63;
-private: System::Windows::Forms::TextBox^  delacc2_3;
-private: System::Windows::Forms::FlowLayoutPanel^  addaccfl1;
-private: System::Windows::Forms::CheckBox^  dlcheckBox1;
-
-
-
-private: System::Windows::Forms::Label^  label64;
-private: System::Windows::Forms::TextBox^  delacc1_1;
-
-
-
-
-
-
-private: System::Windows::Forms::Label^  label67;
-private: System::Windows::Forms::TextBox^  delacc1_3;
-private: System::Windows::Forms::Button^  Delacc2;
-private: System::Windows::Forms::TabPage^  page4;
-
-private: System::Windows::Forms::SplitContainer^  splitContainer2;
-private: System::Windows::Forms::GroupBox^  Withraw;
-
-private: System::Windows::Forms::TextBox^  Withrout;
-private: System::Windows::Forms::Label^  label37;
-private: System::Windows::Forms::GroupBox^  Deposit;
-private: System::Windows::Forms::TextBox^  deposin;
-private: System::Windows::Forms::Label^  label36;
-private: System::Windows::Forms::Button^  opsrchbtn;
-private: System::Windows::Forms::TextBox^  opsearch;
-private: System::Windows::Forms::Button^  WithrawConf;
-private: System::Windows::Forms::Button^  DeposConfirm;
-
-private: System::Windows::Forms::Splitter^  splitter2;
-
-
-
-private: System::Windows::Forms::Label^  label39;
-private: System::Windows::Forms::Label^  label38;
-private: System::Windows::Forms::TextBox^  opsearch2;
-private: System::Windows::Forms::GroupBox^  Transfre;
-private: System::Windows::Forms::Button^  opconfirm;
-
-private: System::Windows::Forms::TextBox^  TransferI_T;
-private: System::Windows::Forms::Label^  label41;
-
-
-
-
-
-
-
-
-
-
-private: System::Windows::Forms::Button^  EXIT;
-private: System::Windows::Forms::Button^  Minimize;
-private: System::Windows::Forms::Button^  button2;
-private: System::Windows::Forms::TabPage^  page5;
-
-private: System::Windows::Forms::Label^  label42;
-private: System::Windows::Forms::Label^  label45;
-private: System::Windows::Forms::Label^  label46;
-private: System::Windows::Forms::TextBox^  admnm;
-private: System::Windows::Forms::TextBox^  admnpss;
-private: System::Windows::Forms::TextBox^  psscnf;
-private: System::Windows::Forms::Button^  admncrt;
-private: System::Windows::Forms::GroupBox^  passchange;
-private: System::Windows::Forms::Button^  button3;
-private: System::Windows::Forms::TextBox^  rnewpass;
-private: System::Windows::Forms::TextBox^  newpass;
-private: System::Windows::Forms::TextBox^  oldpass;
-private: System::Windows::Forms::Label^  label50;
-private: System::Windows::Forms::Label^  label49;
-private: System::Windows::Forms::Label^  label48;
-private: System::Windows::Forms::GroupBox^  addadmn;
-
-private: System::Windows::Forms::Label^  label54;
-private: System::Windows::Forms::Label^  label53;
-private: System::Windows::Forms::Label^  label51;
-private: System::Windows::Forms::Button^  admncrt1;
-private: System::Windows::Forms::TextBox^  psscnf1;
-
-private: System::Windows::Forms::TextBox^  admnpss1;
-
-private: System::Windows::Forms::TextBox^  admnm1;
-private: System::Windows::Forms::GroupBox^  groupBox1;
-private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart3;
-private: System::Windows::Forms::TextBox^  soldtext;
-
-private: System::Windows::Forms::TextBox^  nametext;
-
-private: System::Windows::Forms::TextBox^  textBox3;
-private: System::Windows::Forms::TextBox^  textBox2;
-private: System::Windows::Forms::TextBox^  textBox1;
-private: System::Windows::Forms::DateTimePicker^  datecheck;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	private: System::Windows::Forms::Label^  label11;
+	private: System::Windows::Forms::TextBox^  Dellacc3_3;
+
+	private: System::Windows::Forms::Label^  label12;
+	private: System::Windows::Forms::TextBox^  Dellacc3_4;
+
+	private: System::Windows::Forms::FlowLayoutPanel^  flowLayoutPanel2;
+	private: System::Windows::Forms::CheckBox^  check2;
+
+	private: System::Windows::Forms::Label^  label5;
+	private: System::Windows::Forms::TextBox^  Dellacc2_1;
+
+	private: System::Windows::Forms::Label^  label6;
+	private: System::Windows::Forms::TextBox^  Dellacc2_2;
+
+	private: System::Windows::Forms::Label^  label7;
+	private: System::Windows::Forms::TextBox^  Dellacc2_3;
+
+	private: System::Windows::Forms::Label^  label8;
+	private: System::Windows::Forms::TextBox^  Dellacc2_4;
+	private: System::Windows::Forms::CheckBox^  check1;
+
+	private: System::Windows::Forms::Button^  DELETE;
+	private: System::Windows::Forms::Button^  DelSearchBtn;
+	private: System::Windows::Forms::TextBox^  Delsearch;
+	private: System::Windows::Forms::RadioButton^  radioButton2;
+	private: System::Windows::Forms::RadioButton^  radioButton1;
+	private: System::Windows::Forms::TabPage^  page3;
+
+	private: System::Windows::Forms::GroupBox^  ACCADD;
+
+	private: System::Windows::Forms::Button^  CreateACC;
+	private: System::Windows::Forms::TextBox^  accadd3;
+	private: System::Windows::Forms::TextBox^  accadd2;
+	private: System::Windows::Forms::TextBox^  accadd1;
+	private: System::Windows::Forms::Label^  label35;
+	private: System::Windows::Forms::Label^  label34;
+	private: System::Windows::Forms::Label^  label33;
+	private: System::Windows::Forms::GroupBox^  DelAC;
+	private: System::Windows::Forms::Button^  button1;
+	private: System::Windows::Forms::TextBox^  serchdata;
+
+	private: System::Windows::Forms::TableLayoutPanel^  tableLayoutPanel2;
+	private: System::Windows::Forms::FlowLayoutPanel^  addaccfl6;
+	private: System::Windows::Forms::CheckBox^  dlcheckBox6;
+
+	private: System::Windows::Forms::Label^  label40;
+	private: System::Windows::Forms::TextBox^  delacc6_1;
+
+	private: System::Windows::Forms::Label^  label43;
+	private: System::Windows::Forms::TextBox^  delacc6_3;
+	private: System::Windows::Forms::FlowLayoutPanel^  addaccfl5;
+	private: System::Windows::Forms::CheckBox^  dlcheckBox5;
+
+	private: System::Windows::Forms::Label^  label44;
+	private: System::Windows::Forms::TextBox^  delacc5_1;
+
+	private: System::Windows::Forms::Label^  label47;
+	private: System::Windows::Forms::TextBox^  delacc5_3;
+	private: System::Windows::Forms::FlowLayoutPanel^  addaccfl4;
+	private: System::Windows::Forms::CheckBox^  dlcheckBox4;
+
+	private: System::Windows::Forms::Label^  label52;
+	private: System::Windows::Forms::TextBox^  delacc4_1;
+
+	private: System::Windows::Forms::Label^  label55;
+	private: System::Windows::Forms::TextBox^  delacc4_3;
+	private: System::Windows::Forms::FlowLayoutPanel^  addaccfl3;
+	private: System::Windows::Forms::CheckBox^  dlcheckBox3;
+
+	private: System::Windows::Forms::Label^  label56;
+	private: System::Windows::Forms::TextBox^  delacc3_1;
+
+	private: System::Windows::Forms::Label^  label59;
+	private: System::Windows::Forms::TextBox^  delacc3_3;
+	private: System::Windows::Forms::FlowLayoutPanel^  addaccfl2;
+	private: System::Windows::Forms::CheckBox^  dlcheckBox2;
+
+	private: System::Windows::Forms::Label^  label60;
+	private: System::Windows::Forms::TextBox^  delacc2_1;
+
+	private: System::Windows::Forms::Label^  label63;
+	private: System::Windows::Forms::TextBox^  delacc2_3;
+	private: System::Windows::Forms::FlowLayoutPanel^  addaccfl1;
+	private: System::Windows::Forms::CheckBox^  dlcheckBox1;
+
+	private: System::Windows::Forms::Label^  label64;
+	private: System::Windows::Forms::TextBox^  delacc1_1;
+
+	private: System::Windows::Forms::Label^  label67;
+	private: System::Windows::Forms::TextBox^  delacc1_3;
+	private: System::Windows::Forms::Button^  Delacc2;
+	private: System::Windows::Forms::TabPage^  page4;
+
+	private: System::Windows::Forms::SplitContainer^  splitContainer2;
+	private: System::Windows::Forms::GroupBox^  Withraw;
+
+	private: System::Windows::Forms::TextBox^  Withrout;
+	private: System::Windows::Forms::Label^  label37;
+	private: System::Windows::Forms::GroupBox^  Deposit;
+	private: System::Windows::Forms::TextBox^  deposin;
+	private: System::Windows::Forms::Label^  label36;
+	private: System::Windows::Forms::Button^  opsrchbtn;
+	private: System::Windows::Forms::TextBox^  opsearch;
+	private: System::Windows::Forms::Button^  WithrawConf;
+	private: System::Windows::Forms::Button^  DeposConfirm;
+
+	private: System::Windows::Forms::Splitter^  splitter2;
+
+	private: System::Windows::Forms::Label^  label39;
+	private: System::Windows::Forms::Label^  label38;
+	private: System::Windows::Forms::TextBox^  opsearch2;
+	private: System::Windows::Forms::GroupBox^  Transfre;
+	private: System::Windows::Forms::Button^  opconfirm;
+
+	private: System::Windows::Forms::TextBox^  TransferI_T;
+	private: System::Windows::Forms::Label^  label41;
+
+	private: System::Windows::Forms::Button^  EXIT;
+	private: System::Windows::Forms::Button^  Minimize;
+	private: System::Windows::Forms::Button^  button2;
+	private: System::Windows::Forms::TabPage^  page5;
+
+	private: System::Windows::Forms::Label^  label42;
+	private: System::Windows::Forms::Label^  label45;
+	private: System::Windows::Forms::Label^  label46;
+	private: System::Windows::Forms::TextBox^  admnm;
+	private: System::Windows::Forms::TextBox^  admnpss;
+	private: System::Windows::Forms::TextBox^  psscnf;
+	private: System::Windows::Forms::Button^  admncrt;
+	private: System::Windows::Forms::GroupBox^  passchange;
+	private: System::Windows::Forms::Button^  button3;
+	private: System::Windows::Forms::TextBox^  rnewpass;
+	private: System::Windows::Forms::TextBox^  newpass;
+	private: System::Windows::Forms::TextBox^  oldpass;
+	private: System::Windows::Forms::Label^  label50;
+	private: System::Windows::Forms::Label^  label49;
+	private: System::Windows::Forms::Label^  label48;
+	private: System::Windows::Forms::GroupBox^  addadmn;
+
+	private: System::Windows::Forms::Label^  label54;
+	private: System::Windows::Forms::Label^  label53;
+	private: System::Windows::Forms::Label^  label51;
+	private: System::Windows::Forms::Button^  admncrt1;
+	private: System::Windows::Forms::TextBox^  psscnf1;
+
+	private: System::Windows::Forms::TextBox^  admnpss1;
+
+	private: System::Windows::Forms::TextBox^  admnm1;
+	private: System::Windows::Forms::GroupBox^  groupBox1;
+	private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart3;
+	private: System::Windows::Forms::TextBox^  soldtext;
+
+	private: System::Windows::Forms::TextBox^  nametext;
+
+	private: System::Windows::Forms::TextBox^  textBox3;
+	private: System::Windows::Forms::TextBox^  textBox2;
+	private: System::Windows::Forms::TextBox^  textBox1;
+	private: System::Windows::Forms::DateTimePicker^  datecheck;
 
 	private:
 		/// <summary>
@@ -858,7 +738,7 @@ private: System::Windows::Forms::DateTimePicker^  datecheck;
 			this->Admin->Name = L"Admin";
 			this->Admin->Size = System::Drawing::Size(118, 16);
 			this->Admin->TabIndex = 1;
-			this->Admin->Text = L"Account N� / Name :";
+			this->Admin->Text = L"Account N째 / Name :";
 			// 
 			// Admpass
 			// 
@@ -1322,7 +1202,7 @@ private: System::Windows::Forms::DateTimePicker^  datecheck;
 			this->resultLabel3->Name = L"resultLabel3";
 			this->resultLabel3->Size = System::Drawing::Size(59, 13);
 			this->resultLabel3->TabIndex = 2;
-			this->resultLabel3->Text = L"Phone N� :";
+			this->resultLabel3->Text = L"Phone N째 :";
 			// 
 			// resultLabel2
 			// 
@@ -1510,7 +1390,7 @@ private: System::Windows::Forms::DateTimePicker^  datecheck;
 			this->label29->Name = L"label29";
 			this->label29->Size = System::Drawing::Size(48, 13);
 			this->label29->TabIndex = 0;
-			this->label29->Text = L"Client N�";
+			this->label29->Text = L"Client N째";
 			// 
 			// Dellacc8_1
 			// 
@@ -1600,7 +1480,7 @@ private: System::Windows::Forms::DateTimePicker^  datecheck;
 			this->label25->Name = L"label25";
 			this->label25->Size = System::Drawing::Size(48, 13);
 			this->label25->TabIndex = 0;
-			this->label25->Text = L"Client N�";
+			this->label25->Text = L"Client N째";
 			// 
 			// Dellacc7_1
 			// 
@@ -1690,7 +1570,7 @@ private: System::Windows::Forms::DateTimePicker^  datecheck;
 			this->label21->Name = L"label21";
 			this->label21->Size = System::Drawing::Size(48, 13);
 			this->label21->TabIndex = 0;
-			this->label21->Text = L"Client N�";
+			this->label21->Text = L"Client N째";
 			// 
 			// Dellacc6_1
 			// 
@@ -1780,7 +1660,7 @@ private: System::Windows::Forms::DateTimePicker^  datecheck;
 			this->label17->Name = L"label17";
 			this->label17->Size = System::Drawing::Size(48, 13);
 			this->label17->TabIndex = 0;
-			this->label17->Text = L"Client N�";
+			this->label17->Text = L"Client N째";
 			// 
 			// Dellacc5_1
 			// 
@@ -1870,7 +1750,7 @@ private: System::Windows::Forms::DateTimePicker^  datecheck;
 			this->label13->Name = L"label13";
 			this->label13->Size = System::Drawing::Size(48, 13);
 			this->label13->TabIndex = 0;
-			this->label13->Text = L"Client N�";
+			this->label13->Text = L"Client N째";
 			// 
 			// Dellacc4_1
 			// 
@@ -1960,7 +1840,7 @@ private: System::Windows::Forms::DateTimePicker^  datecheck;
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(48, 13);
 			this->label9->TabIndex = 0;
-			this->label9->Text = L"Client N�";
+			this->label9->Text = L"Client N째";
 			// 
 			// Dellacc3_1
 			// 
@@ -2050,7 +1930,7 @@ private: System::Windows::Forms::DateTimePicker^  datecheck;
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(48, 13);
 			this->label5->TabIndex = 0;
-			this->label5->Text = L"Client N�";
+			this->label5->Text = L"Client N째";
 			// 
 			// Dellacc2_1
 			// 
@@ -2140,7 +2020,7 @@ private: System::Windows::Forms::DateTimePicker^  datecheck;
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(48, 13);
 			this->label1->TabIndex = 0;
-			this->label1->Text = L"Client N�";
+			this->label1->Text = L"Client N째";
 			// 
 			// Dellacc1_1
 			// 
@@ -2284,7 +2164,7 @@ private: System::Windows::Forms::DateTimePicker^  datecheck;
 			this->addlabel4->Name = L"addlabel4";
 			this->addlabel4->Size = System::Drawing::Size(59, 13);
 			this->addlabel4->TabIndex = 3;
-			this->addlabel4->Text = L"Phone N� :";
+			this->addlabel4->Text = L"Phone N째 :";
 			// 
 			// addlabel3
 			// 
